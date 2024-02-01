@@ -1,0 +1,13 @@
+@import "./_main";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* 280px */
+  --min-layout-width: 17.5rem;
+  /* 18px */
+  --max-font-size: 1.125rem;
+  /* 8px */
+  --line-width: 0.5rem;
+}

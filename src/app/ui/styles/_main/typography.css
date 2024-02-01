@@ -1,0 +1,51 @@
+/* heading */
+.heading-1 {
+  @apply text-[2.5rem] font-bold leading-[3rem] tracking-normal text-neutral-very-dark-blue xs:text-[2.625rem] xs:leading-[3.125rem] md:text-6xl md:leading-[4.5rem] md:tracking-[-0.02688em] lg:text-[4.25rem] lg:leading-[5rem] xl:text-[4.5rem] xl:leading-[5.25rem] 1.5xl:text-[5rem] 1.5xl:leading-[5.625rem];
+}
+
+.heading-2 {
+  @apply text-2xl font-bold md:text-[2.5rem];
+}
+
+.heading-3 {
+  @apply text-[1.65rem] font-bold tracking-[-0.015em] text-neutral-very-dark-blue xs:text-[1.75rem] md:text-[2.3rem] md:tracking-[-.025em] xl:text-[2.5rem];
+}
+
+.heading-3--alt {
+  @apply text-[1.65rem] font-bold tracking-[-0.015em] text-white xs:text-[1.75rem] md:text-[2.3rem] md:tracking-[-.025em] xl:text-[2.5rem];
+}
+
+/* card */
+.card-heading {
+  @apply text-[1.375rem] font-bold text-neutral-very-dark-blue;
+}
+
+.card-text {
+  @apply max-w-[25rem] leading-[1.625rem] tracking-tight text-neutral-grayish-violet md:tracking-[-0.03em];
+}
+
+.body-text {
+  @apply max-w-[31rem] text-lg leading-8 tracking-normal text-neutral-grayish-violet md:max-w-[36rem] md:text-[1.375rem] md:leading-[2.25rem] md:tracking-[0.009em];
+}
+
+/* ul */
+.list-heading {
+  @apply capitalize text-white before:text-base before:font-bold before:-tracking-[0.01em];
+}
+
+.list-items > li {
+  @apply text-base -tracking-[0.04em] text-neutral-gray;
+}
+
+.list-items > li > a {
+  @apply transition-colors hover:text-primary-cyan;
+}
+
+/* nav */
+.nav-items > li {
+  @apply text-[0.938rem] font-bold leading-[1.438rem] text-neutral-grayish-violet transition-colors hover:text-neutral-very-dark-blue;
+}
+
+.menu-items > li {
+  @apply text-[1.125rem] font-bold  leading-[1.688rem] -tracking-[0.0028em] text-white transition-colors hover:text-primary-cyan;
+}

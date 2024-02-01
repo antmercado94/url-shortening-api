@@ -1,0 +1,11 @@
+.page-margin {
+  @apply mx-4 xs:mx-[max(1.5rem,6.25vw)] lg:mx-[min(10rem,9.5vw)] xl:mx-[max(10.313rem,11.45vw)] 2xl:mx-auto 2xl:max-w-[74.188rem];
+}
+
+.section-margin {
+  @apply mx-auto max-w-[32rem] md:max-w-[38rem] lg:max-w-none;
+}
+
+.links-spacing > :first-child {
+  @apply mt-6;
+}

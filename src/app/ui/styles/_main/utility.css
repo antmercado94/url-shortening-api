@@ -1,0 +1,21 @@
+.full-width {
+  @apply relative left-1/2 right-1/2 -ml-[50%] -mr-[50%] w-screen min-w-[17.5rem] max-w-[100%];
+}
+
+.full-width--hero {
+  @apply absolute left-1/2 right-1/2 top-[10.5rem] -z-50 -ml-[50%] -mr-[50%] h-full w-screen min-w-[17.5rem] max-w-[100%] md:top-[11.5rem] lg:top-[13.25rem];
+}
+
+.cards-presentation {
+  @apply relative after:absolute after:left-1/2 after:-z-10 after:-ml-[calc(var(--line-width)*0.5)] after:h-full after:w-[var(--line-width)] after:bg-primary-cyan after:content-[''] after:lg:left-0 after:lg:top-[44%] after:lg:-mt-[calc(var(--line-width)*0.5)] after:lg:ml-0 after:lg:h-[var(--line-width)] after:lg:w-full;
+}
+
+.cards-presentation > article {
+  @apply lg:mt-[calc(var(--step)*2.6rem)] lg:h-fit;
+}
+
+/* fix for overflow-y clipping when using hero btn link */
+/* not sure why it works, but it works*/
+.overflow-y-fix {
+  @apply flex flex-col-reverse;
+}
