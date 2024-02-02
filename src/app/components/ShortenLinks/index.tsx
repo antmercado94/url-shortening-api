@@ -32,7 +32,7 @@ export default function ShortenLinks({ linksToRender }: Props) {
     <>
       <section aria-label="Shorten a Link" className="section-margin">
         {/* form */}
-        <div className="relative mt-[5.5rem] rounded-lg bg-primary-dark-violet p-6 lg:mt-32 lg:rounded-lgr lg:px-16 lg:py-[3.25rem]">
+        <div className="relative mt-[5.5rem] rounded-lg bg-primary-dark-violet p-6 lg:mt-[4.25rem] lg:rounded-lgr lg:px-16 lg:py-[3.25rem]">
           <Input
             links={links}
             setLinks={setLinks}

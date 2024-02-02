@@ -3,7 +3,7 @@
 }
 
 .full-width--hero {
-  @apply absolute left-1/2 right-1/2 top-[10.5rem] -z-50 -ml-[50%] -mr-[50%] h-full w-screen min-w-[17.5rem] max-w-[100%] md:top-[11.5rem] lg:top-[13.25rem];
+  @apply absolute left-1/2 right-1/2 top-[10.6rem] -z-50 -ml-[50%] -mr-[50%] h-full w-screen min-w-[17.5rem] max-w-[100%] md:top-[9.5rem];
 }
 
 .cards-presentation {
