@@ -12,7 +12,7 @@ export default function Navbar() {
   const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false);
 
   return (
-    <header className="page-margin relative flex items-center justify-between gap-[min(2.813rem,2.5vw)] pt-10 lg:pt-12">
+    <header className="page-margin relative flex items-center justify-between gap-[min(2.813rem,3.14vw)] pt-10 lg:pt-12">
       {/* skip link */}
       <a href="#main-content" className="sr-only">
         Skip to main content
@@ -45,7 +45,7 @@ export default function Navbar() {
           </li>
         </ul>
         {/* nav links--right */}
-        <ul className="nav-items flex items-center gap-[min(2.375rem,2.25vw)]">
+        <ul className="nav-items flex items-center gap-[min(2.375rem,2.65vw)]">
           <li>
             <Link href="#">Login</Link>
           </li>

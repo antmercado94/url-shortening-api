@@ -71,7 +71,7 @@ export default function Input({ links, setLinks, setIsPending }: Props) {
           id="url-error"
           aria-live="polite"
           aria-atomic="true"
-          className="-mb-[0.063rem] -mt-[0.688rem] lg:-mb-[1.375rem] lg:-mt-[0.375rem] lg:h-0"
+          className="-mb-[0.25rem] -mt-[0.688rem] lg:-mb-[1.375rem] lg:-mt-[0.375rem] lg:h-0"
         >
           {errors?.url &&
             errors.url?.map((error: string) => (

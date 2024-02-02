@@ -1,6 +1,6 @@
 /* heading */
 .heading-1 {
-  @apply text-[2.5rem] font-bold leading-[3rem] tracking-normal text-neutral-very-dark-blue xs:text-[2.625rem] xs:leading-[3.125rem] md:text-6xl md:leading-[4.5rem] md:tracking-[-0.02688em] lg:text-[4.25rem] lg:leading-[5rem] xl:text-[4.5rem] xl:leading-[5.25rem] 1.5xl:text-[5rem] 1.5xl:leading-[5.625rem];
+  @apply text-[2.5rem] font-bold leading-[3rem] tracking-tight text-neutral-very-dark-blue xs:text-[2.625rem] xs:leading-[3.125rem] md:text-6xl md:leading-[4.5rem] md:tracking-[-0.02688em] lg:text-[4.25rem] lg:leading-[5rem] xl:text-[4.5rem] xl:leading-[5.25rem] 1.5xl:text-[5rem] 1.5xl:leading-[5.625rem];
 }
 
 .heading-2 {
