@@ -60,6 +60,7 @@ export default function Navbar() {
         type="button"
         className="group cursor-pointer md:hidden"
         aria-haspopup="dialog"
+        onClick={() => setIsMenuToggled(!isMenuToggled)}
       >
         <Image
           aria-hidden="true"
@@ -67,7 +68,6 @@ export default function Navbar() {
           priority
           src={menuIcon}
           alt="Menu icon"
-          onClick={() => setIsMenuToggled(!isMenuToggled)}
         />
       </button>
       {/* mobile nav modal */}
