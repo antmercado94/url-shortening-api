@@ -2,8 +2,8 @@
   @apply relative left-1/2 right-1/2 -ml-[50%] -mr-[50%] w-screen min-w-[17.5rem] max-w-[100%];
 }
 
-.full-width--hero {
-  @apply absolute left-1/2 right-1/2 top-[10.6rem] -z-50 -ml-[50%] -mr-[50%] h-full w-screen min-w-[17.5rem] max-w-[100%] md:top-[9.5rem];
+.full-width--bg {
+  @apply absolute left-1/2 right-1/2 top-[10.6rem] -z-50 -ml-[50%] -mr-[50%] h-full w-screen min-w-[17.5rem] max-w-[100%] md:top-[11.5rem] lg:top-[9.5rem];
 }
 
 .cards-presentation {

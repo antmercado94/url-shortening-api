@@ -17,10 +17,10 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className="min-w-[var(--min-layout-width)] bg-neutral-very-dark-violet 3xl:text-[var(--max-font-size)]"
+      className="min-w-[var(--min-layout-width)] 3xl:text-[var(--max-font-size)]"
     >
       <body className={`${poppins.className} antialiased`}>
-        <div className="relative z-0 bg-white contrast-more:bg-white">
+        <div className="relative">
           <Navbar />
           {children}
         </div>

@@ -77,7 +77,7 @@ export default function Home() {
               </section>
             </div>
             {/* bg */}
-            <div className="full-width--hero bg-neutral-very-light-gray"></div>
+            <div className="full-width--bg bg-neutral-very-light-gray"></div>
           </div>
         </div>
         {/* banner */}

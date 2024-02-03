@@ -6,7 +6,7 @@ import getSocialIcon from "@/app/utils/getSocialIcon";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="bg-neutral-very-dark-violet">
       <div className="page-margin flex flex-col items-center gap-12 pt-[3.375rem] md:flex-row md:items-start md:justify-between md:pb-[4.438rem] md:pt-[4.438rem]">
         {/* logo */}
         <div>
